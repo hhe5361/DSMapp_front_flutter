@@ -1,0 +1,31 @@
+name: dasom_community_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  html: ^0.15.4
+  http: ^1.1.2
+  provider: ^6.1.1
+  table_calendar: ^3.0.9
+  test: ^1.24.9
+  webview_flutter: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/svg/
+
